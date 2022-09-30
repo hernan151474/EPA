@@ -36,7 +36,7 @@ public class PantallaEPA extends javax.swing.JFrame {
             menuEscuela.setEnabled(false);
             menuPersonal.setEnabled(false);
             menuUsuarios.setEnabled(false);
-           ;
+            menuBackup.setEnabled(false);
         }
     }
     
@@ -97,9 +97,12 @@ public class PantallaEPA extends javax.swing.JFrame {
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
         jMenuItem14 = new javax.swing.JMenuItem();
+        menuBackup = new javax.swing.JMenu();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenuItem22 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Escuela Provincial Agrotecnica N° 2 - El Piquete");
+        setTitle("Escuela de Educación Técnica Nº1 \"Coronel Manuel Alvarez Prado\"");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -446,6 +449,27 @@ public class PantallaEPA extends javax.swing.JFrame {
 
         menuBar.add(jMenu3);
 
+        menuBackup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
+        menuBackup.setText("Backup");
+
+        jMenuItem15.setText("Exportar");
+        jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem15ActionPerformed(evt);
+            }
+        });
+        menuBackup.add(jMenuItem15);
+
+        jMenuItem22.setText("Importar");
+        jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem22ActionPerformed(evt);
+            }
+        });
+        menuBackup.add(jMenuItem22);
+
+        menuBar.add(menuBackup);
+
         setJMenuBar(menuBar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -661,6 +685,20 @@ public class PantallaEPA extends javax.swing.JFrame {
         vista.show();
     }//GEN-LAST:event_jMenuItem13ActionPerformed
 
+    private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem15ActionPerformed
+        Exportar vista = new Exportar();
+        desktopPane.add(vista);
+        vista.toFront();
+        vista.show();
+    }//GEN-LAST:event_jMenuItem15ActionPerformed
+
+    private void jMenuItem22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem22ActionPerformed
+        Importar vista = new Importar();
+        desktopPane.add(vista);
+        vista.toFront();
+        vista.show();
+    }//GEN-LAST:event_jMenuItem22ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -715,6 +753,7 @@ public class PantallaEPA extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem16;
     private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem18;
@@ -722,6 +761,7 @@ public class PantallaEPA extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem20;
     private javax.swing.JMenuItem jMenuItem21;
+    private javax.swing.JMenuItem jMenuItem22;
     private javax.swing.JMenuItem jMenuItem23;
     private javax.swing.JMenuItem jMenuItem25;
     private javax.swing.JMenuItem jMenuItem26;
@@ -741,6 +781,7 @@ public class PantallaEPA extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JMenu menuBackup;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenu menuEscuela;
     private javax.swing.JMenu menuPersonal;
