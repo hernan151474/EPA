@@ -95,10 +95,10 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
 
         setTitle("Asignar Notas");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        paneListAlumno.setBackground(new java.awt.Color(0, 152, 101));
-        paneListAlumno.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Listado de Alumnos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        paneListAlumno.setBackground(new java.awt.Color(64, 207, 255));
+        paneListAlumno.setBorder(javax.swing.BorderFactory.createTitledBorder("Listado de Alumnos"));
 
         tblAlumno.setBorder(new javax.swing.border.MatteBorder(null));
         tblAlumno.setModel(new javax.swing.table.DefaultTableModel(
@@ -163,7 +163,7 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
             .addGroup(paneListAlumnoLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(10, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         btnSalir.setBackground(new java.awt.Color(0, 51, 51));
@@ -176,10 +176,9 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
             }
         });
 
-        paneAsigAula.setBackground(new java.awt.Color(0, 152, 101));
-        paneAsigAula.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Asignar Aula", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        paneAsigAula.setBackground(new java.awt.Color(64, 207, 255));
+        paneAsigAula.setBorder(javax.swing.BorderFactory.createTitledBorder("Listado de Alumnos"));
 
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Materia");
 
         cbxMateria.addItemListener(new java.awt.event.ItemListener() {
@@ -193,7 +192,6 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Fecha");
 
         fechaNota.setBackground(new java.awt.Color(0, 152, 101));
@@ -258,10 +256,9 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel6.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Aulas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel6.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Aulas"));
 
-        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Turno");
 
         cbxTurno.addItemListener(new java.awt.event.ItemListener() {
@@ -275,7 +272,6 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Aula");
 
         cbxAula.addItemListener(new java.awt.event.ItemListener() {
@@ -313,7 +309,7 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
                     .addComponent(cbxTurno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel24)
                     .addComponent(cbxAula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(10, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -356,7 +352,7 @@ public class AlumnoNotas extends javax.swing.JInternalFrame {
                         .addComponent(btnModificar)
                         .addComponent(btnEliminar))
                     .addComponent(btnSalir))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

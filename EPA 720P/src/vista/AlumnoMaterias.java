@@ -92,10 +92,10 @@ public class AlumnoMaterias extends javax.swing.JInternalFrame {
 
         setTitle("Inscripcion");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informacion Personal", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Informacion Personal"));
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
         btnBuscar.setForeground(new java.awt.Color(255, 255, 255));
@@ -107,13 +107,11 @@ public class AlumnoMaterias extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/domicilio.png"))); // NOI18N
         jLabel10.setText("Domicilio");
 
         txtDomicilio.setEditable(false);
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
@@ -124,13 +122,11 @@ public class AlumnoMaterias extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel2.setText("Apellido y Nombre");
 
         txtApeNom.setEditable(false);
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/legajo.png"))); // NOI18N
         jLabel13.setText("Legajo");
 
@@ -204,10 +200,9 @@ public class AlumnoMaterias extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel5.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Asignar Aula", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel5.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Asignar Aula"));
 
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Plan");
 
         cbxPlanEst.addActionListener(new java.awt.event.ActionListener() {
@@ -236,7 +231,6 @@ public class AlumnoMaterias extends javax.swing.JInternalFrame {
             tblAula.getColumnModel().getColumn(2).setPreferredWidth(100);
         }
 
-        lblCicloLectivo.setForeground(new java.awt.Color(255, 255, 255));
         lblCicloLectivo.setText("Ciclo Lectivo");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);

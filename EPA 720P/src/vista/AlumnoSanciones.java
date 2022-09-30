@@ -98,10 +98,10 @@ public class AlumnoSanciones extends javax.swing.JInternalFrame {
 
         setTitle("Registrar Sanciones Alumno");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informacion Personal", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Asignar Sanción"));
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
         btnBuscar.setForeground(new java.awt.Color(255, 255, 255));
@@ -113,13 +113,11 @@ public class AlumnoSanciones extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/domicilio.png"))); // NOI18N
         jLabel10.setText("Domicilio");
 
         txtDomicilio.setEditable(false);
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
@@ -130,13 +128,11 @@ public class AlumnoSanciones extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel2.setText("Apellido y Nombre");
 
         txtApeNom.setEditable(false);
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/legajo.png"))); // NOI18N
         jLabel13.setText("Legajo");
 
@@ -210,10 +206,9 @@ public class AlumnoSanciones extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel5.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Asignar Sanción", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel5.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Asignar Sanción"));
 
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Sancion");
 
         cbxSancion.addItemListener(new java.awt.event.ItemListener() {
@@ -246,20 +241,16 @@ public class AlumnoSanciones extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Cantidad");
 
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Fecha");
 
-        lblObser.setForeground(new java.awt.Color(255, 255, 255));
         lblObser.setText("Observación");
 
         txaObser.setColumns(20);
         txaObser.setRows(5);
         jScrollPane1.setViewportView(txaObser);
 
-        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Total");
 
         txtTotal.setEditable(false);

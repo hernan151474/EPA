@@ -18,6 +18,7 @@ public class PantallaEPA extends javax.swing.JFrame {
      */
     public PantallaEPA() {
         initComponents();
+        this.menuUsuarios.setVisible(false);
     }
     
     public PantallaEPA(int nivelUsuario) {
@@ -35,6 +36,7 @@ public class PantallaEPA extends javax.swing.JFrame {
             menuEscuela.setEnabled(false);
             menuPersonal.setEnabled(false);
             menuUsuarios.setEnabled(false);
+           ;
         }
     }
     
@@ -103,7 +105,7 @@ public class PantallaEPA extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 51, 102));
-        jLabel2.setText("ESCUELA PROVINCIAL AGROTECNICA N° 2 - EL PIQUETE");
+        jLabel2.setText("Escuela de Educación Técnica Nº1 \"Coronel Manuel Alvarez Prado\"");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/frente.jpg"))); // NOI18N
         jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -113,20 +115,21 @@ public class PantallaEPA extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(238, 238, 238)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 950, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(80, 80, 80)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(272, Short.MAX_VALUE))
+                        .addGap(318, 318, 318)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(81, 81, 81)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1193, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(186, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(58, 58, 58)
+                .addGap(65, 65, 65)
                 .addComponent(jLabel2)
-                .addGap(45, 45, 45)
+                .addGap(38, 38, 38)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 520, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(192, Short.MAX_VALUE))
         );
@@ -580,33 +583,33 @@ public class PantallaEPA extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        UsuarioCrearUsuario ventanaCrearUsuario = new UsuarioCrearUsuario();
-        desktopPane.add(ventanaCrearUsuario);
-        ventanaCrearUsuario.setVisible(true);
+        //UsuarioCrearUsuario ventanaCrearUsuario = new UsuarioCrearUsuario();
+        //desktopPane.add(ventanaCrearUsuario);
+        //ventanaCrearUsuario.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        UsuarioModificarUsuario ventanaModificarUsuario = new UsuarioModificarUsuario();
-        desktopPane.add(ventanaModificarUsuario);
-        ventanaModificarUsuario.setVisible(true);
+       // UsuarioModificarUsuario ventanaModificarUsuario = new UsuarioModificarUsuario();
+        //desktopPane.add(ventanaModificarUsuario);
+        //ventanaModificarUsuario.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        UsuarioModificarContraseña ventanaModificarContraseña = new UsuarioModificarContraseña();
-        desktopPane.add(ventanaModificarContraseña);
-        ventanaModificarContraseña.setVisible(true);
+        //UsuarioModificarContraseña ventanaModificarContraseña = new UsuarioModificarContraseña();
+        //desktopPane.add(ventanaModificarContraseña);
+        //ventanaModificarContraseña.setVisible(true);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
-        UsuarioModificarNivel ventanaModificarNivel = new UsuarioModificarNivel();
-        desktopPane.add(ventanaModificarNivel);
-        ventanaModificarNivel.setVisible(true);
+        //UsuarioModificarNivel ventanaModificarNivel = new UsuarioModificarNivel();
+        //desktopPane.add(ventanaModificarNivel);
+        //ventanaModificarNivel.setVisible(true);
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
-        UsuarioEliminarUsuario ventanaEliminarUsuario = new UsuarioEliminarUsuario();
-        desktopPane.add(ventanaEliminarUsuario);
-        ventanaEliminarUsuario.setVisible(true);
+        //UsuarioEliminarUsuario ventanaEliminarUsuario = new UsuarioEliminarUsuario();
+        //desktopPane.add(ventanaEliminarUsuario);
+        //ventanaEliminarUsuario.setVisible(true);
     }//GEN-LAST:event_jMenuItem8ActionPerformed
 
     private void itemCrearSancionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemCrearSancionActionPerformed

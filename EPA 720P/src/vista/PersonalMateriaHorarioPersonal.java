@@ -80,6 +80,7 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
         btnQuitar.setEnabled(false);
         btnAgregar2.setEnabled(false);
     }
+        
     
     public void cargarTablaHoras()
     {
@@ -329,9 +330,10 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
         tblDias = new javax.swing.JTable();
         btnQuitar = new javax.swing.JButton();
 
+        setClosable(true);
         setTitle("Materia y Horario de Personal");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
         btnGuardar.setBackground(new java.awt.Color(0, 51, 51));
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
@@ -353,8 +355,8 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Seleccionar Curso", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
         tblAulas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -395,10 +397,9 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Personales", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Personal");
 
         txtPersonal.setEditable(false);
@@ -413,7 +414,6 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
@@ -457,8 +457,8 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                 .addGap(0, 21, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Seleccionar Materia", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
         cbxMateria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -466,10 +466,8 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Caracter");
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Materia");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -504,12 +502,12 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                 .addContainerGap(13, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Seleccionar Dia y Hora", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel5.setBackground(new java.awt.Color(156, 156, 156));
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel8.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Horas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel8.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
         tblHoras.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -554,11 +552,11 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel5.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 90, 349, -1));
+        jPanel5.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 349, 200));
 
         btnAgregar2.setBackground(new java.awt.Color(0, 51, 51));
         btnAgregar2.setForeground(new java.awt.Color(255, 255, 255));
@@ -569,33 +567,27 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                 btnAgregar2ActionPerformed(evt);
             }
         });
-        jPanel5.add(btnAgregar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(138, 331, -1, -1));
+        jPanel5.add(btnAgregar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 290, -1, -1));
 
-        jPanel10.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dias", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel10.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
         grupoDias.add(checkLunes);
-        checkLunes.setForeground(new java.awt.Color(255, 255, 255));
         checkLunes.setText("Lun");
 
         grupoDias.add(checkMartes);
-        checkMartes.setForeground(new java.awt.Color(255, 255, 255));
         checkMartes.setText("Mar");
 
         grupoDias.add(checkMiercoles);
-        checkMiercoles.setForeground(new java.awt.Color(255, 255, 255));
         checkMiercoles.setText("Mie");
 
         grupoDias.add(checkJueves);
-        checkJueves.setForeground(new java.awt.Color(255, 255, 255));
         checkJueves.setText("Jue");
 
         grupoDias.add(checkViernes);
-        checkViernes.setForeground(new java.awt.Color(255, 255, 255));
         checkViernes.setText("Vie");
 
         grupoDias.add(checkSabado);
-        checkSabado.setForeground(new java.awt.Color(255, 255, 255));
         checkSabado.setText("Sab");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -628,26 +620,22 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                     .addComponent(checkJueves)
                     .addComponent(checkViernes)
                     .addComponent(checkSabado))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel5.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 16, -1, -1));
+        jPanel5.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 16, -1, 60));
 
-        jPanel6.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Agregar Informacion", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel6.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel10.setText("Fecha Inicio");
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel7.setText("Fecha Finalizacion");
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Cupof");
 
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Observaciones");
 
         txtObservaciones.setColumns(20);
@@ -700,11 +688,11 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                         .addComponent(jLabel9)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(131, 131, 131))
+                .addGap(126, 126, 126))
         );
 
-        jPanel9.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dias y Horarios", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel9.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Dias y Horarios"));
 
         tblDias.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -762,8 +750,8 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnQuitar)
                 .addContainerGap())
         );
@@ -789,11 +777,11 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                                 .addContainerGap())
                             .addComponent(jPanel9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(72, 72, 72)
+                        .addGap(68, 68, 68)
                         .addComponent(btnGuardar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnSalir)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addGap(0, 522, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -805,15 +793,15 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 339, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnGuardar)
                             .addComponent(btnSalir))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -827,7 +815,7 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -898,7 +886,7 @@ public class PersonalMateriaHorarioPersonal extends javax.swing.JInternalFrame {
             String[] parts = datosMateria.split(" ");
             String nombreMateria = parts[0];
             int añoMateria = Integer.valueOf(parts[1]);
-            materia = ctrlMateria.leerMateria(nombreMateria,añoMateria);
+            materia = ctrlMateria.leerMateria(datosMateria,añoMateria);
         }
     }//GEN-LAST:event_cbxMateriaActionPerformed
 

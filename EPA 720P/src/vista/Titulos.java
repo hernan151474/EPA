@@ -159,9 +159,8 @@ public class Titulos extends javax.swing.JInternalFrame {
 
         setTitle("Titulos");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Titulo");
 
         txtTitulo.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -230,7 +229,6 @@ public class Titulos extends javax.swing.JInternalFrame {
             tblTitulos.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Nivel");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

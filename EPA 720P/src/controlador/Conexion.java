@@ -19,7 +19,7 @@ public class Conexion {
        Connection conexion = null;
        String base = "jdbc:mysql://localhost:3306/EPA?useTimezone=true&serverTimezone=UTC&ssh=false";
        String usr = "root";
-       String pass = "";
+       String pass = "hernan";
      
        try
        {

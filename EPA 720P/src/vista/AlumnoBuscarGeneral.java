@@ -69,10 +69,10 @@ public class AlumnoBuscarGeneral extends javax.swing.JInternalFrame {
 
         setTitle("Buscar Alumno");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Alumno Registrados", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Alumno Registrados"));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N

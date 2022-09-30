@@ -77,10 +77,10 @@ public class ConsultaEstructuraCurricular extends javax.swing.JInternalFrame {
 
         setTitle("Estructura Curricular");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informacion Personal", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Espacios Curriculares"));
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
         btnBuscar.setForeground(new java.awt.Color(255, 255, 255));
@@ -92,7 +92,6 @@ public class ConsultaEstructuraCurricular extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("CUIL");
 
         txtCuil.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -101,7 +100,6 @@ public class ConsultaEstructuraCurricular extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Apellido y Nombre");
 
         txtApeNom.setEditable(false);
@@ -139,8 +137,8 @@ public class ConsultaEstructuraCurricular extends javax.swing.JInternalFrame {
                 .addGap(0, 24, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Espacios Curriculares", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Espacios Curriculares"));
 
         tblEspacioCurricular.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

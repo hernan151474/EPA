@@ -83,10 +83,10 @@ public class LibroMatriz extends javax.swing.JInternalFrame {
 
         setTitle("Datos Personales");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informacion del Alumno", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Informacion del Alumno"));
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
         btnBuscar.setForeground(new java.awt.Color(255, 255, 255));
@@ -100,13 +100,11 @@ public class LibroMatriz extends javax.swing.JInternalFrame {
 
         txtFechaIngreso.setEditable(false);
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/domicilio.png"))); // NOI18N
         jLabel10.setText("Domicilio");
 
         txtDomicilio.setEditable(false);
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
@@ -117,17 +115,14 @@ public class LibroMatriz extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel2.setText("Apellido y Nombre");
 
         txtApeNom.setEditable(false);
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel4.setText("Fecha de Nacimiento");
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/legajo.png"))); // NOI18N
         jLabel13.setText("Legajo");
 
@@ -138,7 +133,6 @@ public class LibroMatriz extends javax.swing.JInternalFrame {
             }
         });
 
-        lblFechaIngreso.setForeground(new java.awt.Color(255, 255, 255));
         lblFechaIngreso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         lblFechaIngreso.setText("Fecha de Ingreso");
 
@@ -233,8 +227,8 @@ public class LibroMatriz extends javax.swing.JInternalFrame {
 
         scrollTablaEspacioCurricular.setBackground(new java.awt.Color(0, 152, 101));
 
-        jPanel4.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Espacios Curriculares", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Informacion del Alumno"));
 
         tblEspacioCurricular.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

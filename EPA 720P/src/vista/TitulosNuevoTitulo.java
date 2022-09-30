@@ -106,12 +106,10 @@ public class TitulosNuevoTitulo extends javax.swing.JInternalFrame {
 
         setTitle("Nuevo Titulo");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Nivel");
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Titulo");
 
         txtTitulo.addKeyListener(new java.awt.event.KeyAdapter() {

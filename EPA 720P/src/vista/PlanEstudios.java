@@ -69,7 +69,7 @@ public class PlanEstudios extends javax.swing.JInternalFrame {
 
         setTitle("Plan de Estudios");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
         webCam.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         webCam.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -89,21 +89,17 @@ public class PlanEstudios extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel3.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Agregar Plan de Estudios", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Agregar Plan de Estudios"));
 
-        lblTitulo.setForeground(new java.awt.Color(255, 255, 255));
         lblTitulo.setText("Titulo");
 
-        lblResulucion.setForeground(new java.awt.Color(255, 255, 255));
         lblResulucion.setText("Resolucion");
 
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Desde");
 
         fechaDesde.setBackground(new java.awt.Color(0, 152, 101));
 
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Hasta");
 
         fechaHasta.setBackground(new java.awt.Color(0, 152, 101));

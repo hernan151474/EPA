@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/vista/AlumnoBuscarGeneral.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/controlador/CtrlLugar.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/vista/AlumnoMaterias.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/controlador/CtrlPersonal.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/modelo/Lugar.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/controlador/CtrlDomicilio.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/vista/PersonalAlumnoRegistrar.java</file>
+            <file>file:/C:/Users/Juan%20Carlos/Documents/NetBeansProjects/EPA/EPA%20720P/src/vista/PersonalRegistroDePersonal.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -186,10 +186,10 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
 
         setTitle("Ficha Personal");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
 
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informacion Personal", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Informacion Personal"));
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
         btnBuscar.setForeground(new java.awt.Color(255, 255, 255));
@@ -201,7 +201,6 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/celular.png"))); // NOI18N
         jLabel8.setText("Telefono");
 
@@ -209,13 +208,11 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
 
         txtCelular.setEditable(false);
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/domicilio.png"))); // NOI18N
         jLabel10.setText("Domicilio");
 
         txtDomicilio.setEditable(false);
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
@@ -225,25 +222,21 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel2.setText("Apellido y Nombres");
 
         txtApeNom.setEditable(false);
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel4.setText("Fecha de Nacimiento");
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/horas.png"))); // NOI18N
         jLabel7.setText("Horas");
 
         txtHoras.setEditable(false);
 
-        lblFoto.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Foto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        lblFoto.setBorder(javax.swing.BorderFactory.createTitledBorder("Foto"));
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel3.setText("Fecha de Alta");
 
@@ -344,8 +337,8 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Asignaturas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Titulos"));
 
         tblAsignaturas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -387,8 +380,8 @@ public class ConsultaFichaPersonal extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Titulos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Titulos"));
 
         tblTitulos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

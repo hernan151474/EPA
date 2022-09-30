@@ -202,7 +202,7 @@ public class Aulas extends javax.swing.JInternalFrame {
 
         setTitle("Aulas");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
         btnGuardar.setBackground(new java.awt.Color(0, 51, 51));
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
@@ -272,13 +272,10 @@ public class Aulas extends javax.swing.JInternalFrame {
             tblAulas.getColumnModel().getColumn(2).setResizable(false);
         }
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Curso");
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Division");
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Turno");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

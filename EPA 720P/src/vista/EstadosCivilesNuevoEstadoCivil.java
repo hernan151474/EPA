@@ -80,9 +80,8 @@ public class EstadosCivilesNuevoEstadoCivil extends javax.swing.JInternalFrame {
 
         setTitle("Nuevo Estado Civil");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estadoCivil.png"))); // NOI18N
         jLabel1.setText("Estado Civil");
 

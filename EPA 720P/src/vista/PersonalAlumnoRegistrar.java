@@ -322,7 +322,8 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
 
         setTitle("Administrar Alumnos");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(156, 156, 156));
+        jPanel1.setToolTipText("");
 
         btnGuardar.setBackground(new java.awt.Color(0, 51, 51));
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
@@ -366,10 +367,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        tpnDatPersonales.setBackground(new java.awt.Color(0, 152, 101));
-        tpnDatPersonales.setForeground(new java.awt.Color(255, 255, 255));
-
-        jPanel2.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel2.setBackground(new java.awt.Color(64, 207, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         webCam.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -396,13 +394,11 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         });
 
         jLabel14.setFont(new java.awt.Font("Century Gothic", 3, 12)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Click en el video para tomar foto");
 
-        jPanel14.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Personales", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel14.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos Personales"));
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/hijos.png"))); // NOI18N
         jLabel7.setText("Hijos");
 
@@ -418,23 +414,18 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cuil.png"))); // NOI18N
         jLabel1.setText("CUIL");
 
-        lblNumero.setForeground(new java.awt.Color(255, 255, 255));
         lblNumero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/numberHouse.png"))); // NOI18N
         lblNumero.setText("Numero");
 
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel21.setText("Fecha de Alta");
 
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/edificio.png"))); // NOI18N
         jLabel17.setText("Edificio");
 
-        lblCalle.setForeground(new java.awt.Color(255, 255, 255));
         lblCalle.setText("Calle");
 
         btnBuscar.setBackground(new java.awt.Color(0, 51, 51));
@@ -453,14 +444,11 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        lblBarrio.setForeground(new java.awt.Color(255, 255, 255));
         lblBarrio.setText("B°");
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel3.setText("Nombre");
 
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Referencia");
 
         txtCelular.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -469,11 +457,9 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estadoCivil.png"))); // NOI18N
         jLabel6.setText("Estado Civil");
 
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fijo.png"))); // NOI18N
         jLabel11.setText("Telefono Fijo");
 
@@ -483,7 +469,6 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Situacion Academica");
 
         txtNombre.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -492,14 +477,11 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        lblTorre.setForeground(new java.awt.Color(255, 255, 255));
         lblTorre.setText("Torre");
 
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/email.png"))); // NOI18N
         jLabel9.setText("Email");
 
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Depto");
 
         cbxEstado.addActionListener(new java.awt.event.ActionListener() {
@@ -516,7 +498,6 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/sexo.png"))); // NOI18N
         jLabel5.setText("Sexo");
 
@@ -528,14 +509,11 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
 
         fechaAlta.setBackground(new java.awt.Color(0, 152, 101));
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/legajo.png"))); // NOI18N
         jLabel13.setText("Legajo");
 
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Codigo Postal");
 
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Piso");
 
         cbxBarrio.addItemListener(new java.awt.event.ItemListener() {
@@ -544,11 +522,9 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        lblNacionalidad.setForeground(new java.awt.Color(255, 255, 255));
         lblNacionalidad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nacionalidad.png"))); // NOI18N
         lblNacionalidad.setText("Nacionalidad");
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fecha.png"))); // NOI18N
         jLabel4.setText("Fecha de Nacimiento");
 
@@ -558,7 +534,6 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/localidad.png"))); // NOI18N
         jLabel12.setText("Localidad");
 
@@ -573,11 +548,9 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nombreApellido.png"))); // NOI18N
         jLabel2.setText("Apellido");
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/celular.png"))); // NOI18N
         jLabel8.setText("Telefono Celular");
 
@@ -593,7 +566,6 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/domicilio.png"))); // NOI18N
         jLabel10.setText("Domicilio");
 
@@ -810,7 +782,6 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         );
 
         jLabel22.setFont(new java.awt.Font("Century Gothic", 3, 12)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Subir foto Manualmente");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -854,11 +825,11 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
 
         tpnDatPersonales.addTab("Datos Personales", jPanel2);
 
-        jPanel3.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel3.setBackground(new java.awt.Color(64, 207, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel11.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos de Crecimiento", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel11.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos de Crecimiento", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
 
         lblPeso.setForeground(new java.awt.Color(255, 255, 255));
         lblPeso.setText("Peso");
@@ -938,8 +909,8 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel12.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos de Discapacidad", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel12.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos de Discapacidad", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
 
         lblDiscapacidad.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         lblDiscapacidad.setForeground(new java.awt.Color(255, 255, 255));
@@ -949,7 +920,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("¿El alumno posee alguna Discapacidad?");
 
-        rbtnDisSi.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnDisSi.setBackground(new java.awt.Color(64, 207, 255));
         gprDiscapacidad.add(rbtnDisSi);
         rbtnDisSi.setForeground(new java.awt.Color(255, 255, 255));
         rbtnDisSi.setText("Si");
@@ -969,7 +940,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        rbtnDisNo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnDisNo.setBackground(new java.awt.Color(64, 207, 255));
         gprDiscapacidad.add(rbtnDisNo);
         rbtnDisNo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnDisNo.setText("No");
@@ -982,23 +953,23 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         lblBeneficioEscolarCual1.setForeground(new java.awt.Color(255, 255, 255));
         lblBeneficioEscolarCual1.setText("¿Cuál?");
 
-        ckbCeguera.setBackground(new java.awt.Color(0, 152, 101));
+        ckbCeguera.setBackground(new java.awt.Color(64, 207, 255));
         ckbCeguera.setForeground(new java.awt.Color(255, 255, 255));
         ckbCeguera.setText("Ceguera");
 
-        ckbSordera.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSordera.setBackground(new java.awt.Color(64, 207, 255));
         ckbSordera.setForeground(new java.awt.Color(255, 255, 255));
         ckbSordera.setText("Sordera");
 
-        ckbMotora.setBackground(new java.awt.Color(0, 152, 101));
+        ckbMotora.setBackground(new java.awt.Color(64, 207, 255));
         ckbMotora.setForeground(new java.awt.Color(255, 255, 255));
         ckbMotora.setText("Motora pura Intelectual");
 
-        ckbNeuromotora.setBackground(new java.awt.Color(0, 152, 101));
+        ckbNeuromotora.setBackground(new java.awt.Color(64, 207, 255));
         ckbNeuromotora.setForeground(new java.awt.Color(255, 255, 255));
         ckbNeuromotora.setText("Neuromotora");
 
-        ckbHipoacusia.setBackground(new java.awt.Color(0, 152, 101));
+        ckbHipoacusia.setBackground(new java.awt.Color(64, 207, 255));
         ckbHipoacusia.setForeground(new java.awt.Color(255, 255, 255));
         ckbHipoacusia.setText("Hipoacusia");
         ckbHipoacusia.addActionListener(new java.awt.event.ActionListener() {
@@ -1007,15 +978,15 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        ckbDisminuciónVisual.setBackground(new java.awt.Color(0, 152, 101));
+        ckbDisminuciónVisual.setBackground(new java.awt.Color(64, 207, 255));
         ckbDisminuciónVisual.setForeground(new java.awt.Color(255, 255, 255));
         ckbDisminuciónVisual.setText("Disminución Visual");
 
-        ckbAutista.setBackground(new java.awt.Color(0, 152, 101));
+        ckbAutista.setBackground(new java.awt.Color(64, 207, 255));
         ckbAutista.setForeground(new java.awt.Color(255, 255, 255));
         ckbAutista.setText("Trastorno del Espectro Autista      ");
 
-        ckbDiscapacidadOtro.setBackground(new java.awt.Color(0, 152, 101));
+        ckbDiscapacidadOtro.setBackground(new java.awt.Color(64, 207, 255));
         ckbDiscapacidadOtro.setForeground(new java.awt.Color(255, 255, 255));
         ckbDiscapacidadOtro.setText("Otro");
         ckbDiscapacidadOtro.addActionListener(new java.awt.event.ActionListener() {
@@ -1091,23 +1062,23 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                 .addContainerGap())
         );
 
-        jPanel13.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Docente Integrador", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel13.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Docente Integrador", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
 
         lblDoceInter.setForeground(new java.awt.Color(255, 255, 255));
         lblDoceInter.setText("¿Tiene docente integrador o de apoyo que lo acompañe?");
 
-        rbtnSecEstatal.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnSecEstatal.setBackground(new java.awt.Color(64, 207, 255));
         gprDocenteIntegrador.add(rbtnSecEstatal);
         rbtnSecEstatal.setForeground(new java.awt.Color(255, 255, 255));
         rbtnSecEstatal.setText("Si, del sector estatal");
 
-        rbtnSecPrivado.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnSecPrivado.setBackground(new java.awt.Color(64, 207, 255));
         gprDocenteIntegrador.add(rbtnSecPrivado);
         rbtnSecPrivado.setForeground(new java.awt.Color(255, 255, 255));
         rbtnSecPrivado.setText("Si, del sector Privado");
 
-        rbtnDocInteNo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnDocInteNo.setBackground(new java.awt.Color(64, 207, 255));
         gprDocenteIntegrador.add(rbtnDocInteNo);
         rbtnDocInteNo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnDocInteNo.setText("No");
@@ -1170,17 +1141,17 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
 
         tpnDatPersonales.addTab("Datos Medícos", jPanel3);
 
-        jPanel4.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel4.setBackground(new java.awt.Color(64, 207, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel6.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Plan Social", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel6.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Plan Social", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel6.setForeground(new java.awt.Color(255, 255, 255));
 
         lblPlanSocial.setForeground(new java.awt.Color(255, 255, 255));
         lblPlanSocial.setText("¿El menor y/o sus padres/ tutores son beneficiarios de algún Plan Social?");
 
-        rbtnPlanSocialSi.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnPlanSocialSi.setBackground(new java.awt.Color(64, 207, 255));
         gprPlanSocial.add(rbtnPlanSocialSi);
         rbtnPlanSocialSi.setForeground(new java.awt.Color(255, 255, 255));
         rbtnPlanSocialSi.setText("Si");
@@ -1190,7 +1161,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        rbtnPlanSocialNo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnPlanSocialNo.setBackground(new java.awt.Color(64, 207, 255));
         gprPlanSocial.add(rbtnPlanSocialNo);
         rbtnPlanSocialNo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnPlanSocialNo.setText("No");
@@ -1354,19 +1325,19 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                         .addGap(15, 15, 15))))
         );
 
-        jPanel7.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transporte", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel7.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transporte", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel7.setForeground(new java.awt.Color(255, 255, 255));
 
         lblTanspEscolar.setForeground(new java.awt.Color(255, 255, 255));
         lblTanspEscolar.setText("¿Utiliza Transporte Escolar?");
 
-        rbtnSiFinanEdu.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnSiFinanEdu.setBackground(new java.awt.Color(64, 207, 255));
         gprTransporte.add(rbtnSiFinanEdu);
         rbtnSiFinanEdu.setForeground(new java.awt.Color(255, 255, 255));
         rbtnSiFinanEdu.setText("Si, Financiado por Educación (BEGU)");
 
-        rbtnSiFinaOrganismo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnSiFinaOrganismo.setBackground(new java.awt.Color(64, 207, 255));
         gprTransporte.add(rbtnSiFinaOrganismo);
         rbtnSiFinaOrganismo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnSiFinaOrganismo.setText("Si, Financiado por otro organismo");
@@ -1376,7 +1347,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        rbtnTanspEscolarNo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnTanspEscolarNo.setBackground(new java.awt.Color(64, 207, 255));
         gprTransporte.add(rbtnTanspEscolarNo);
         rbtnTanspEscolarNo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnTanspEscolarNo.setText("No");
@@ -1410,14 +1381,14 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel8.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Beneficio Alimentario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel8.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Beneficio Alimentario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel8.setForeground(new java.awt.Color(255, 255, 255));
 
         lblBeneficioEscolar.setForeground(new java.awt.Color(255, 255, 255));
         lblBeneficioEscolar.setText("¿Es beneficiario de Servicio Alimentario Escolar?");
 
-        rbtnBeneficioEscolarSi.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnBeneficioEscolarSi.setBackground(new java.awt.Color(64, 207, 255));
         gprBeneServicio.add(rbtnBeneficioEscolarSi);
         rbtnBeneficioEscolarSi.setForeground(new java.awt.Color(255, 255, 255));
         rbtnBeneficioEscolarSi.setText("Si");
@@ -1427,7 +1398,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        rbtnBeneficioEscolarNo.setBackground(new java.awt.Color(0, 152, 101));
+        rbtnBeneficioEscolarNo.setBackground(new java.awt.Color(64, 207, 255));
         gprBeneServicio.add(rbtnBeneficioEscolarNo);
         rbtnBeneficioEscolarNo.setForeground(new java.awt.Color(255, 255, 255));
         rbtnBeneficioEscolarNo.setText("No");
@@ -1445,7 +1416,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         lblBeneficioEscolarCual.setForeground(new java.awt.Color(255, 255, 255));
         lblBeneficioEscolarCual.setText("¿Cuál?");
 
-        ckbDesaMerComp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbDesaMerComp.setBackground(new java.awt.Color(64, 207, 255));
         ckbDesaMerComp.setForeground(new java.awt.Color(255, 255, 255));
         ckbDesaMerComp.setText("Desayuno/ merienda completa");
         ckbDesaMerComp.addItemListener(new java.awt.event.ItemListener() {
@@ -1459,23 +1430,23 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             }
         });
 
-        ckbAlmuerzo.setBackground(new java.awt.Color(0, 152, 101));
+        ckbAlmuerzo.setBackground(new java.awt.Color(64, 207, 255));
         ckbAlmuerzo.setForeground(new java.awt.Color(255, 255, 255));
         ckbAlmuerzo.setText("Almuerzo");
 
-        ckbMerienda.setBackground(new java.awt.Color(0, 152, 101));
+        ckbMerienda.setBackground(new java.awt.Color(64, 207, 255));
         ckbMerienda.setForeground(new java.awt.Color(255, 255, 255));
         ckbMerienda.setText("Merienda");
 
-        ckbDesayuno.setBackground(new java.awt.Color(0, 152, 101));
+        ckbDesayuno.setBackground(new java.awt.Color(64, 207, 255));
         ckbDesayuno.setForeground(new java.awt.Color(255, 255, 255));
         ckbDesayuno.setText("Desayuno");
 
-        ckbComeSimple.setBackground(new java.awt.Color(0, 152, 101));
+        ckbComeSimple.setBackground(new java.awt.Color(64, 207, 255));
         ckbComeSimple.setForeground(new java.awt.Color(255, 255, 255));
         ckbComeSimple.setText("Comedor Simple");
 
-        ckbCena.setBackground(new java.awt.Color(0, 152, 101));
+        ckbCena.setBackground(new java.awt.Color(64, 207, 255));
         ckbCena.setForeground(new java.awt.Color(255, 255, 255));
         ckbCena.setText("Cena");
 
@@ -1554,7 +1525,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1564,51 +1535,51 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
 
         tpnDatPersonales.addTab("Datos Socio Economico", jPanel4);
 
-        jPanel5.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel5.setBackground(new java.awt.Color(64, 207, 255));
         jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel9.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos del Tutor o Encargado", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel9.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos del Tutor o Encargado", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setText("¿Cuál es el máximo nivel educativo alcanzo por la madre, padre o tutor?");
 
-        ckbSinInst.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSinInst.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbSinInst);
         ckbSinInst.setForeground(new java.awt.Color(255, 255, 255));
         ckbSinInst.setText("Sin instrucción");
 
-        ckbPriComp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbPriComp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbPriComp);
         ckbPriComp.setForeground(new java.awt.Color(255, 255, 255));
         ckbPriComp.setText("Primaria/EGB Completa");
 
-        ckbPriIncomp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbPriIncomp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbPriIncomp);
         ckbPriIncomp.setForeground(new java.awt.Color(255, 255, 255));
         ckbPriIncomp.setText("Primaria/EGB Incompleta");
 
-        ckbSecuPolComp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSecuPolComp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbSecuPolComp);
         ckbSecuPolComp.setForeground(new java.awt.Color(255, 255, 255));
         ckbSecuPolComp.setText("Secundaria/Polimodal Completa");
 
-        ckbSecuPolInComp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSecuPolInComp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbSecuPolInComp);
         ckbSecuPolInComp.setForeground(new java.awt.Color(255, 255, 255));
         ckbSecuPolInComp.setText("Secundaria/Polimodal Incompleta");
 
-        ckbSupComp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSupComp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbSupComp);
         ckbSupComp.setForeground(new java.awt.Color(255, 255, 255));
         ckbSupComp.setText("Superior Completo");
 
-        ckbSupImcomp.setBackground(new java.awt.Color(0, 152, 101));
+        ckbSupImcomp.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbSupImcomp);
         ckbSupImcomp.setForeground(new java.awt.Color(255, 255, 255));
         ckbSupImcomp.setText("Superior Incompleto");
 
-        ckbNosabe.setBackground(new java.awt.Color(0, 152, 101));
+        ckbNosabe.setBackground(new java.awt.Color(64, 207, 255));
         gprTutor.add(ckbNosabe);
         ckbNosabe.setForeground(new java.awt.Color(255, 255, 255));
         ckbNosabe.setText("No Sabe");
@@ -1660,8 +1631,8 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel10.setBackground(new java.awt.Color(0, 152, 101));
-        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Interculturalidad y Regimen Especial", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel10.setBackground(new java.awt.Color(64, 207, 255));
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Interculturalidad y Regimen Especial", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel29.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(255, 255, 255));
@@ -1674,7 +1645,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         lblCualInterCul.setForeground(new java.awt.Color(255, 255, 255));
         lblCualInterCul.setText("¿Cuál?");
 
-        ckbCualInter.setBackground(new java.awt.Color(0, 152, 101));
+        ckbCualInter.setBackground(new java.awt.Color(64, 207, 255));
         ckbCualInter.setForeground(new java.awt.Color(255, 255, 255));
         ckbCualInter.setText("Otro");
         ckbCualInter.addItemListener(new java.awt.event.ItemListener() {
@@ -1698,7 +1669,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
         jLabel37.setForeground(new java.awt.Color(255, 255, 255));
         jLabel37.setText("¿Cuál?");
 
-        ckbCualRegimen.setBackground(new java.awt.Color(0, 152, 101));
+        ckbCualRegimen.setBackground(new java.awt.Color(64, 207, 255));
         ckbCualRegimen.setForeground(new java.awt.Color(255, 255, 255));
         ckbCualRegimen.setText("Otro");
         ckbCualRegimen.addItemListener(new java.awt.event.ItemListener() {
@@ -1764,7 +1735,7 @@ public class PersonalAlumnoRegistrar extends javax.swing.JInternalFrame {
                     .addComponent(cbxRegEspExist, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtRegEspCual, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ckbCualRegimen))
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);

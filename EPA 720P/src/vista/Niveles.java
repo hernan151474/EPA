@@ -132,9 +132,8 @@ public class Niveles extends javax.swing.JInternalFrame {
 
         setTitle("Niveles");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nivel");
 
         txtNivel.addKeyListener(new java.awt.event.KeyAdapter() {

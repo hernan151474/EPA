@@ -56,7 +56,7 @@ public class Sanciones extends javax.swing.JInternalFrame {
 
         setTitle("Nueva Sancion");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
         btnEliminar.setBackground(new java.awt.Color(0, 51, 51));
         btnEliminar.setForeground(new java.awt.Color(255, 255, 255));
@@ -68,7 +68,6 @@ public class Sanciones extends javax.swing.JInternalFrame {
             }
         });
 
-        lblSancion.setForeground(new java.awt.Color(255, 255, 255));
         lblSancion.setText("Sancion");
 
         txtSancion.addKeyListener(new java.awt.event.KeyAdapter() {

@@ -164,9 +164,8 @@ public class Materias extends javax.swing.JInternalFrame {
 
         setTitle("Materias");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Materia");
 
         txtMateria.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -241,10 +240,8 @@ public class Materias extends javax.swing.JInternalFrame {
             tblMaterias.getColumnModel().getColumn(0).setResizable(false);
         }
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Plan de Estudio");
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Año");
 
         cbxAño.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 ° ", "2 ° ", "3 ° ", "4 ° ", "5 ° " }));

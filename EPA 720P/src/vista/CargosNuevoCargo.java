@@ -81,9 +81,8 @@ public class CargosNuevoCargo extends javax.swing.JInternalFrame {
 
         setTitle("Nuevo Cargo");
 
-        jPanel1.setBackground(new java.awt.Color(0, 152, 101));
+        jPanel1.setBackground(new java.awt.Color(64, 207, 255));
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Cargo");
 
         txtCargo.addKeyListener(new java.awt.event.KeyAdapter() {
